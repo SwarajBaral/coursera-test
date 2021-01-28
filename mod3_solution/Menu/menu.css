@@ -1,0 +1,81 @@
+
+/* Mobile First View */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lucida Console", "Courier New", monospace;
+	background-color: #85DCCB;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	margin: 1.5em 1em 0em 1em;
+}
+
+
+
+.menu-items h2 {
+	font-size: 125%;
+	outline: 2px solid black;
+	padding:  0.5em 1em;
+	width: 30%;
+	margin:  0 0 0.5em 0;
+	text-align: center;
+	position: absolute;
+	top:0;
+	right:0;
+}
+
+.menu-items div {
+	outline: 2px solid black;
+	position: relative;
+	margin: 10px;
+}
+
+.menu-items p {
+	padding: 2em;
+}
+
+
+.items-chicken h2 {
+	background-color: rgb(213,152,152);
+	
+}
+
+.items-beef h2 {
+	background-color: rgb(193,69,67);
+	color: white;
+	
+}
+
+.items-sushi h2 {
+	background-color: rgb(229,209,152);
+}
+
+.menu-items {
+	width: 100%;
+}
+/* Desktop View */
+@media (min-width: 992px){
+	.items-chicken, .items-beef, .items-sushi {
+		float: left;
+		width: 33.33%;
+	}
+
+}
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 991px) {
+		.items-chicken, .items-beef, .items-sushi {
+		float: left;
+		width: 50%;
+	}
+	.items-sushi {
+		float: left;
+		width: 100%;
+	}
+
+}

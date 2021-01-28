@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background: #85DCCB !important;
   font-family: 'Oxygen', sans-serif;
 }
 #p {
@@ -47,11 +47,12 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #FFF;
   text-align: center;
 }
 #nav-list a:hover {
   background: #E7E7E7;
+  color: black;
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -59,11 +60,15 @@ body {
 
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid white;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+}
+
+p{
+  padding: 1em;
 }
 /* END HEADER */
 

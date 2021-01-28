@@ -15,7 +15,9 @@ h1 {
 	margin: 1.5em 1em 0em 1em;
 }
 
-
+.menu-items {
+	width: 100%;
+}
 
 .menu-items h2 {
 	font-size: 125%;
@@ -32,11 +34,12 @@ h1 {
 .menu-items div {
 	outline: 2px solid black;
 	position: relative;
-	margin: 10px;
+	padding-top: 1em;
+	margin:  10px';
 }
 
 .menu-items p {
-	padding: 2em;
+	padding: 1em;
 }
 
 
@@ -55,9 +58,7 @@ h1 {
 	background-color: rgb(229,209,152);
 }
 
-.menu-items {
-	width: 100%;
-}
+
 /* Desktop View */
 @media (min-width: 992px){
 	.items-chicken, .items-beef, .items-sushi {
